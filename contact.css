@@ -1,0 +1,206 @@
+body{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #212428;
+    color: white;
+}
+.visit{
+    text-align: center;
+    color: #f9004d;
+}
+.contact-name{
+    display: flex;
+    grid-gap: 30px;
+    margin-top: 1.5rem;
+}
+
+.Facebbok{
+    border-end-start-radius: 10px;
+    
+   width: 50px;
+   height: 50px;
+   box-shadow:-4px 0px 5px 4px #343a40 ;
+}
+.fa-facebook-f{
+    font-size: 25px;
+    padding-left: 15px;
+    padding-top: 13px;
+    color: #f8f9fa;
+}
+.Facebbok:hover{
+    background-color: #181a1d;
+    cursor: pointer;
+}
+.fa-facebook-f:hover{
+    color: #4267B2;
+   
+}
+
+
+.instagram{
+   border-radius: 10px;
+   width: 50px;
+   height: 50px;
+   box-shadow:   -4px 0px 5px 3px #343a40 ;
+}
+.fa-instagram{
+    font-size: 25px;
+    padding-left: 15px;
+    padding-top: 13px;
+    color: #f8f9fa;
+}
+.instagram:hover{
+    background-color: #181a1d;
+    cursor: pointer;
+}
+.fa-instagram:hover{
+    color: rgb(251, 57, 88)
+}
+
+
+.linkedl{
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    box-shadow: 1px 0px 5px 3px #343a40 ; ;
+}
+.fa-linkedin-in{
+    font-size: 25px;
+    padding-left: 15px;
+    padding-top: 13px;
+    color: #f8f9fa;
+}
+.linkedl:hover{
+    background-color: #181a1d;
+    cursor: pointer;
+}
+.fa-linkedin-in:hover{
+    color:#0072b1
+}
+.contact-info{
+    display: flex; 
+    width: 100%; 
+    grid-gap: 50px;
+}
+.my-info{
+    box-shadow:-4px 10px 5px 10px #1c1e1f ;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 25px;
+    /* justify-content: center; */
+    width: 35%;
+    padding-bottom: 3rem;
+}
+.my-info img{
+    width: 98%;
+    height: 50%;
+    border-radius: 10px;
+    padding-right: 5px;
+}
+
+.my-info p{
+    color:#c4cfde;
+    font-size: 20px;
+}
+.my-info .Name{
+    color:#e4e6ea;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.number{
+    color:#e4e6ea;
+    font-size: 20px;
+}
+
+.contact-way h1{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 60px;
+    color:#c4cfde;
+    font-family: "Montserrat",sans-serif;
+    word-break: break-word;
+}
+
+
+
+/* input section Strat */
+.info-input{
+    width: 65%;
+    padding-top: 30px;
+    box-shadow:-4px 10px 5px 10px #1c1e1f ;
+    padding-left: 20px;
+    color:#c4cfde;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+
+
+.name-phone{
+    display: flex;
+    grid-gap:0px;
+}
+.full-name input{
+    padding-right: 103%;
+    height: 50px; 
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color:#191b1e;
+}
+.full-name input:hover {
+    border: 2px solid #f9004d;
+}
+
+.phone-number { 
+    margin-left: 212px;
+}
+.phone-number input{
+    padding-right: 108%;
+    height: 50px; 
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color:#191b1e;
+    
+}
+
+.phone-number input:hover {
+    border: 2px solid #f9004d;
+}
+
+.others input{
+    padding-right: 75%; 
+    height: 50px; 
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color:#191b1e;
+}
+.others input:hover {
+    border: 2px solid #f9004d;
+}
+
+.msg-box input{
+    height: 250px; 
+}
+
+.msg-box input:hover{
+    background-color: white;
+    border: 2px solid #f9004d;
+}
+
+.msg{
+    margin-top: 55px;
+    box-shadow:-4px 10px 5px 10px #1c1e1f ;
+    border-radius: 10px;
+    height:5.8%;
+    width:25%;
+}
+
+.msg p{
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 15px;
+    font-family:Montserrat;
+    font-size: 15px;
+    color: #f9004d;
+}

@@ -1,0 +1,248 @@
+body{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #212428;
+    color: white;
+}
+
+.Hero{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    height: 700px;
+    border-bottom:2px solid #181a1d;
+}
+
+
+/*Right container start*/
+.hero-text h4{
+    color: #c4cfde;
+    font-family: "Montserrat",sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    
+}
+
+.hero-text h1{
+    font-size: 50px;
+    font-weight: 200;
+    font-family: 'Bree Serif', serif;
+    word-spacing: 5px;
+    letter-spacing: 1px;  
+}
+
+.hero-text .name{
+    color: #ff014f;
+    font-size: 50px;
+    font-weight: 200;
+    font-family: 'Bree Serif', serif;
+}
+
+.hero-text p{
+    font-weight: 400;
+    color: #c4cfde;
+    font-size: 19px;
+    padding-right:19rem;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*contact-skill section Start*/
+.contact-skill{
+    margin-top: 6.8rem;
+    display: flex;
+    grid-gap: 1.3rem;
+}
+
+/*contact section Start*/
+.contact p{
+    word-spacing: 1px;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.contact-name{
+    display: flex;
+    grid-gap: 30px;
+    margin-top: 1.5rem;
+}
+
+.Facebbok{
+    border-end-start-radius: 10px;
+    
+   width: 50px;
+   height: 50px;
+   box-shadow:-4px 0px 5px 4px #343a40 ;
+}
+.fa-facebook-f{
+    font-size: 25px;
+    padding-left: 15px;
+    padding-top: 13px;
+    color: #f8f9fa;
+}
+.Facebbok:hover{
+    background-color: #181a1d;
+    cursor: pointer;
+}
+.fa-facebook-f:hover{
+    color: #4267B2;
+   
+}
+
+
+.instagram{
+   border-radius: 10px;
+   width: 50px;
+   height: 50px;
+   box-shadow:   -4px 0px 5px 3px #343a40 ;
+}
+.fa-instagram{
+    font-size: 25px;
+    padding-left: 15px;
+    padding-top: 13px;
+    color: #f8f9fa;
+}
+.instagram:hover{
+    background-color: #181a1d;
+    cursor: pointer;
+}
+.fa-instagram:hover{
+    color: rgb(251, 57, 88)
+}
+
+
+.linkedl{
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    box-shadow: 1px 0px 5px 3px #343a40 ; ;
+}
+.fa-linkedin-in{
+    font-size: 25px;
+    padding-left: 15px;
+    padding-top: 13px;
+    color: #f8f9fa;
+}
+.linkedl:hover{
+    background-color: #181a1d;
+    cursor: pointer;
+}
+.fa-linkedin-in:hover{
+    color:#0072b1
+}
+/*contact- section End*/
+
+
+/*skill section Start*/
+.skill-name{
+    display:flex;
+    grid-gap:30px;
+    margin-top: 1.5rem;
+}
+.skill p{
+    word-spacing: 1px;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.html{
+border-radius: 10px;
+   width: 50px;
+   height: 50px;
+   box-shadow:   1px 0px 5px 3px #343a40 ;
+}
+.fa-html5{
+    font-size: 25px;
+    padding-left: 15px;
+    padding-top: 13px;
+    color: #f8f9fa;
+}
+.html:hover{
+    background-color: #181a1d;
+    cursor: pointer;
+}
+.fa-html5:hover{
+    color: #E44D26;
+}
+
+
+.css{
+    border-radius: 10px;
+   width: 50px;
+   height: 50px;
+   box-shadow:   1px 0px 5px 3px #343a40 ;
+}
+.fa-css3-alt{
+    font-size: 25px;
+    padding-left: 15px;
+    padding-top: 13px;
+    color: #f8f9fa;
+}
+.css:hover{
+    background-color: #181a1d;
+    cursor: pointer;
+}
+.fa-css3-alt:hover{
+    color: #2965f1;
+}
+
+
+.java{
+   border-radius: 10px;
+   width: 50px;
+   height: 50px;
+   box-shadow:   1px 0px 5px 3px #343a40 ;
+}
+.fa-java{
+    font-size: 25px;
+    padding-left: 15px;
+    padding-top: 13px;
+    color: #f8f9fa;
+}
+.java:hover{
+    background-color: #181a1d;
+    cursor: pointer;
+}
+.fa-java:hover{
+    color:#f89820;
+}
+/*skill section End*/
+/*contact-skill section End*/
+/*right container End*/
+
+
+/*Left container start*/
+
+.hero-image {
+    width:50%;  
+    margin-top: 3.5rem;
+}
+.img{
+    background-color: #1f2226;
+    box-shadow: 0px 0px 20px 5px gray;
+    position:relative;
+    border-radius: 10px;
+    height: 550px;
+    width: 400px;
+   
+   
+   
+}
+/* .box{
+    background-color: #1f2226;
+    box-shadow: 0px 0px 20px 5px gray;
+    height: 595px;
+    position:relative;
+} */
+
+.img img{
+    position: absolute;
+    border-radius: 15px;
+    /* box-shadow: 0px 0px 20px 5px gray; */
+    height: 116.3%;
+    width: 103%;
+    margin-top:-90px;
+    margin-left: -120px;
+    padding-left:120px;
+}

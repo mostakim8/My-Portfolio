@@ -1,0 +1,177 @@
+body{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #212428;
+    color: white;
+}
+.Work-container{
+    margin-top: 10rem;
+   
+}
+
+.color{
+    color: #f9004d;
+    letter-spacing: 7px;
+    margin-left: 0px;
+}
+
+.do{
+    margin-top: 0px;
+    color:#c4cfde;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "Montserrat",sans-serif;
+}
+.Uper-work{
+    display: flex;
+    grid-gap: 55px;
+}
+
+.Business{
+    box-shadow:   1px 0px 5px 3px #343a40 ;
+    padding-top: 15px;
+    padding-left: 60px;
+    border-radius: 5px;
+    padding-right: 40px;
+    justify-content: center;
+}
+.fa-bars-staggered{
+    font-size: 70px;
+    color: #f9004d;
+}
+.Business h1{
+    font-size: 30px;
+    color:#c4cfde;
+}
+.Business p{
+    color:#c4cfde;
+    font-size: 18px;
+}
+
+.app-development{
+    padding-top: 15px;
+    box-shadow:   1px 0px 5px 3px #343a40 ;
+    padding-left: 60px;
+    border-radius: 5px;
+    padding-right: 40px;
+    justify-content: center;
+}
+.fa-book-open{
+    font-size: 70px;
+    color: #f9004d;
+}
+
+.app-development{
+    padding-top: 15px;
+    box-shadow:   1px 0px 5px 3px #343a40 ;
+    padding-left: 60px;
+    border-radius: 5px;
+    padding-right: 40px;
+    justify-content: center;
+}
+.fa-biohazard{
+    font-size: 70px;
+    color: #f9004d;
+}
+.app-development h1{
+    font-size: 30px;
+    color:#c4cfde;
+}
+.app-development p{
+    color:#c4cfde;
+    font-size: 18px;
+}
+/*uper work section End*/
+
+
+/*down work section start*/
+.down-work{
+    margin-top: 3rem;
+    display: flex;
+    grid-gap: 55px;
+    width: 100%;
+}
+
+.mobile-app{
+    box-shadow:   1px 0px 5px 3px #343a40 ;
+    padding-top: 15px;
+    padding-left: 60px;
+    border-radius: 5px;
+    padding-right: 40px;
+    justify-content: center;
+}
+.fa-staylinked{
+    font-size: 70px;
+    color: #f9004d;
+}
+.mobile-app p{
+    color:#c4cfde;
+    font-size: 18px;
+}
+
+
+.mobile-app h1{
+    font-size: 30px;
+    color:#c4cfde;
+}
+
+
+
+
+
+
+
+
+.ceo-marketing{
+    box-shadow:   1px 0px 5px 3px #343a40 ;
+    padding-top: 15px;
+    padding-left: 60px;
+    border-radius: 5px;
+    padding-right: 40px;
+    justify-content: center;
+
+}
+.fa-wifi{
+    font-size: 70px;
+    color: #f9004d;
+}
+.ceo-marketing p{
+    color:#c4cfde;
+    font-size: 18px;
+
+}
+
+.ceo-marketing h1{
+    font-size: 30px;
+    color:#c4cfde;
+}
+
+
+
+
+.parsonal-portfolio{
+    box-shadow:   1px 0px 5px 3px #343a40 ;
+    padding-top: 15px;
+    padding-left: 60px;
+    border-radius: 5px;
+    padding-right: 40px;
+    justify-content: center;
+}
+
+.fa-person-breastfeeding{
+    font-size: 70px;
+    color: #f9004d;
+}
+.parsonal-portfolio p{
+    color:#c4cfde;
+    font-size: 18px;
+}
+
+.parsonal-portfolio h1{
+    font-size: 27px;
+    color:#c4cfde;
+}
+ hr{
+    margin-top: 10rem;
+    border: 1px solid #181a1d;
+ }
