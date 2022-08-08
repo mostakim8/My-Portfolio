@@ -4,26 +4,39 @@ body {
     background-color: #212428;
     color: white;
 }
+@media (max-width: 7px) {
+    body{background-color: #c4cfde;}
+}
+    
+
+
+    
 
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding-right: 70px;
-
+    position: fixed;
+    top: 0;
+    background-color: #212428 !important;
 
 }
-
+.nav-bar{
+    padding-left: 466px;
+}
 nav a {
     text-decoration: none;
     color: #c4cfde;
     margin-left: 10px;
-    margin-right: 70px;
+    margin-right: 50px;
     font-size: 17px;
 
 }
 
+
 nav img {
+    border: 3px solid rgb(167, 161, 161);
     border-radius: 55px;
     height: 80px;
 }
@@ -32,12 +45,14 @@ nav img {
 .Hero {
     display: flex;
     justify-content: center;
-    margin-top: 5rem;
+    margin-top: 10rem;
     height: 700px;
     border-bottom: 2px solid #181a1d;
 }
 
-
+.hero-text{
+    margin-left: 0px;
+}
 /*Right container start*/
 .hero-text h4 {
     color: #c4cfde;
@@ -265,14 +280,14 @@ nav img {
     margin-top: 3.5rem;
 }
 
+
 .img {
-    background-color: #1f2226;
-    box-shadow: 0px 0px 20px 5px gray;
+    background-color: #241e1e;
+    box-shadow: 0px 0px 20px 5px rgb(49, 48, 48);
     position: relative;
     border-radius: 10px;
     height: 550px;
-    width: 400px;
-
+    width: 435px;
 
 }
 
@@ -287,11 +302,11 @@ nav img {
     position: absolute;
     border-radius: 15px;
     /* box-shadow: 0px 0px 20px 5px gray; */
-    height: 116.3%;
-    width: 103%;
-    margin-top: -90px;
-    margin-left: -120px;
-    padding-left: 120px;
+    height: 122%;
+    width: 120%;
+    margin-top: -120px;
+    margin-left: -218px;
+    padding-left: 150px;
 }
 
 /*Left container End*/
@@ -326,6 +341,7 @@ nav img {
     grid-gap: 55px;
 }
 
+
 .Business {
     box-shadow: 1px 0px 5px 3px #343a40;
     padding-top: 15px;
@@ -333,6 +349,9 @@ nav img {
     border-radius: 5px;
     padding-right: 40px;
     justify-content: center;
+}
+.Business:hover {
+ background-color: #181a1d;
 }
 
 .fa-bars-staggered {
@@ -357,6 +376,9 @@ nav img {
     border-radius: 5px;
     padding-right: 40px;
     justify-content: center;
+}
+.app-development:hover{
+    background-color: #181a1d;
 }
 
 .fa-book-open {
@@ -407,7 +429,9 @@ nav img {
     padding-right: 40px;
     justify-content: center;
 }
-
+.mobile-app:hover{
+    background-color: #181a1d;
+}
 .fa-staylinked {
     font-size: 70px;
     color: #f9004d;
@@ -434,7 +458,9 @@ nav img {
     border-radius: 5px;
     padding-right: 40px;
     justify-content: center;
-
+}
+.ceo-marketing:hover{
+    background-color: #181a1d;
 }
 
 .fa-wifi {
@@ -464,7 +490,9 @@ nav img {
     padding-right: 40px;
     justify-content: center;
 }
-
+.parsonal-portfolio:hover{
+    background-color: #181a1d;
+}
 .fa-person-breastfeeding {
     font-size: 70px;
     color: #f9004d;
@@ -542,10 +570,11 @@ hr {
 
 .para {
     padding-left: 10px;
-    padding-right: 0px;
+    padding-right: 10px;
     color: #c4cfde;
     font-size: 25px;
     font-size: 25px;
+    background-color: #E44D26;
 }
 
 .para p {
@@ -553,23 +582,26 @@ hr {
     padding-right: 10px;
     color: #c4cfde;
     font-size: 25px;
+    background-color: tomato;
 }
 
+
 .first img {
-    width: 90%;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 27px;
-    border-bottom-right-radius: 15px;
+    width: 85%;
+    border-top-left-radius: 27px;
+    border-top-right-radius: 27px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 12px;
     padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 5px;
+    margin-left: 0px;
+    padding-right: 0px;
     padding-bottom: 5px;
     transition: 1.25s;
 }
 
 .first img:hover {
-    transform: scale(0.3);
+    transform: scale(1.05);
+    transition: all .5s ease-in-out;
 }
 
 
@@ -606,15 +638,16 @@ hr {
     border-top-right-radius: 30px;
     border-bottom-left-radius: 27px;
     border-bottom-right-radius: 15px;
-    padding-top: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
     padding-bottom: 5px;
     transition: 1.25s;
 }
 
 .second img:hover {
-    transform: scale(0.3);
+    transform: scale(1.05);
+    transition: all .5s ease-in-out;
 }
 
 
@@ -641,14 +674,15 @@ hr {
     border-bottom-left-radius: 27px;
     border-bottom-right-radius: 15px;
     padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
     padding-bottom: 5px;
     transition: 1.25s;
 }
 
 .third img:hover {
-    transform: scale(0.3);
+    transform: scale(1.05);
+    transition: all .5s ease-in-out;
 }
 
 /* portfolio section End */
@@ -719,7 +753,8 @@ hr {
     color: #c4cfde;
     font-size: 20px;
     font-family: 'Roboto Slab', serif;
-    font-weight: 400;
+    font-weight: 500;
+    
 }
 
 
@@ -727,13 +762,17 @@ hr {
     display: flex;
     grid-gap: 0px;
 }
-
+.lebel{
+    padding-left: 6px;
+}
 .full-name input {
-    padding-right: 103%;
+    width: 208%;
+    /* padding-right: 103%; */
     height: 50px;
     border-radius: 10px;
     border: 1px solid black;
     background-color: #191b1e;
+    color: white;
 }
 
 .full-name input:hover {
@@ -750,7 +789,7 @@ hr {
     border-radius: 10px;
     border: 1px solid black;
     background-color: #191b1e;
-
+    color: white;
 }
 
 .phone-number input:hover {
@@ -763,7 +802,9 @@ hr {
     border-radius: 10px;
     border: 1px solid black;
     background-color: #191b1e;
+    color: white;
 }
+
 
 .others input:hover {
     border: 2px solid #f9004d;
@@ -771,6 +812,14 @@ hr {
 
 .msg-box input {
     height: 250px;
+    width: 21%; 
+    color: black;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  
 }
 
 .msg-box input:hover {
@@ -786,7 +835,7 @@ hr {
     width: 25%;
 }
 
-.msg p {
+.msg  p {
     padding-top: 15px;
     padding-left: 25px;
     padding-right: 15px;

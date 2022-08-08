@@ -19,19 +19,19 @@
         <span>
             <img src="./logo.png">
         </span>
-        <span>
-                    <a href="hero.html">HOME</a>
-                    <a href="FEATURES.html">FEATURES</a>
-                    <a href="potfolio.html">PORTFOLIO</a>
+        <div class="nav-bar">
+                    <a href="#Home">HOME</a>
+                    <a href="#Feature">FEATURES</a>
+                    <a href="#Portfolio">PORTFOLIO</a>
                     <a href="#">RESUME</a>
-                    <a href="contact.html">CONTANCT</a>
-        </span>
+                    <a href="#contac">CONTANCT</a>
+        </div>
     </nav>
 </header>
 
 
     <!--Hero Section Start-->
-    <section class="Hero">
+    <section class="Hero" id="Home">
         <!--Right container start-->
         <div class="hero-text">
             <h4>WELCOME TO MY WORLD</h4>
@@ -80,11 +80,10 @@
         <!--Left Container Start-->
         <div class="hero-image">
             <div class="shadow">
-                <div class="box">
-                </div>
+                
 
                 <div class="img">
-                    <img src="./278243342_1172368066937761_896648975444519170_n-removebg-preview.png" alt="wait">
+                    <img src="./image.png" alt="wait">
                 </div>
             </div>
         </div>
@@ -92,7 +91,7 @@
     </section>
     <!--Hero Section End-->
     <!--Work section Start-->
-    <Section class="Work-container">
+    <Section class="Work-container" id="Feature">
         <p class="color">FEATURES</p>
         <h1 class="do">What I Do</h1>
         <!--Uper Work Section strat-->
@@ -137,7 +136,7 @@
     </Section>
     <!--Work section End-->
     <!-- My Portfolio section Start -->
-    <section class="Portfolio">
+    <section class="Portfolio" id="Portfolio">
         <P class="visit">VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</P>
         <h1>My Portfolio</h1>
         <div class="items">
@@ -149,7 +148,7 @@
                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
             </div>
             <div class="second">
-                <img src="./snapseed-best-free-iphone-camera-app-800x420-removebg-preview.png" alt="wait" height="60%"width="110%">
+                <img src="./mobile.jpeg" alt="wait">
                 
                 <p class="topic">Photo Edit</p>
                 <p class="para"> This is any photo edit by mobile phone</p> 
@@ -169,7 +168,7 @@
 
     <!-- Contact Section strat -->
 
-    <section class="contact-way">
+    <section class="contact-way" id="contac">
         <p class="visit">CONTACT</p>
         <h1>Contact With Me</h1>
 
@@ -201,24 +200,22 @@
                     <div class="name-phone">
                         <div class="full-name">
                             <label for="fname">Your Name</label><br><br>
-                            <input type="text" id="fname" name="fname">
+                            <input type="text" id="fname" name="fname" placeholder="Type your name here">
                         </div>
                         <div class="phone-number">
                             <label for="fname"> Phone Number</label><br><br>
-                            <input type="number" id="fname" name="fname"><br><br>
-                        </div>
-                       
-                        
+                            <input type="number" id="fname" name="fname" placeholder="Type your phone-number"><br><br>
+                        </div>  
                     </div>
                    <div class="others">
-                    <label for="fname"> Email</label><br><br>
-                    <input type="text" id="fname" name="fname"><br><br>
+                    <label for="fname">Email</label><br><br>
+                    <input type="text" id="fname" name="fname" placeholder="Type your valid email here"><br><br>
                     <label for="fname">Subject</label><br><br>
                     <input type="text" id="fname" name="fname"><br><br><br>
                     
                     <div class="msg-box">
                         <label for="fname">Messege</label><br><br>
-                        <input type="text" id="fname" name="fname">
+                        <input>
                     </div>
                     
                    </div>
